@@ -1,115 +1,123 @@
 [[FFplay]]
 arch = "aarch64"
-git-tree-sha1 = "99be5469f74239b90033698940f0efc699a1ea7c"
-libc = "glibc"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "50838645757fb43ddd2c02e01b5421c74a0b7a1b06a56253b3192fce5db1700a"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.aarch64-linux-gnu.tar.gz"
-[[FFplay]]
-arch = "aarch64"
-git-tree-sha1 = "0c09a141f1acbdf320f1d65a4bf5fa94404d58b2"
-libc = "musl"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "6cb032607633fff250bc9708c4bb335aa621167e95434dd4732d08e6a34d74db"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.aarch64-linux-musl.tar.gz"
-[[FFplay]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "f951cb4f65e6574ad06fc12fa54f2d17fcd47c68"
-libc = "glibc"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "b463c1cb4cdc1fa4f42f12d969b1544cfcf1eaffa4ee6982610c85833ad1f62b"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.armv7l-linux-gnueabihf.tar.gz"
-[[FFplay]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6c7520ede4d89aa6d31a439c43d28a4101511dc1"
-libc = "musl"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "aabb8e2c699e61b0fbd7739517f3a0e65ef850fbb87071d57120e5e75a264b1f"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.armv7l-linux-musleabihf.tar.gz"
-[[FFplay]]
-arch = "i686"
-git-tree-sha1 = "8330c87d9e0f11171afdfd619f6b3ca076ccbfe5"
-libc = "glibc"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "4f892cba2390603a0c8197f53c0021352d215c8d257eb6502b02b3016eea3423"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.i686-linux-gnu.tar.gz"
-[[FFplay]]
-arch = "i686"
-git-tree-sha1 = "58a5072de1c199fd9a6f7c8f9e606b4a9a9d11b0"
-libc = "musl"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "e9158c9e53f9000dea776da56c9f14224c70a27df57ef54c4e4dc4880d1d7dfd"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.i686-linux-musl.tar.gz"
-[[FFplay]]
-arch = "i686"
-git-tree-sha1 = "cc1d03a22bf0f1a3d99706b805000e578f98b302"
-os = "windows"
-
-    [[FFplay.download]]
-    sha256 = "3110d6bb6b4d449b4c9902323249949fe9cbd27682f3903824a2343d37183fb1"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.i686-w64-mingw32.tar.gz"
-[[FFplay]]
-arch = "powerpc64le"
-git-tree-sha1 = "59e383c2122fabf30277c956eb692cff088a7cfd"
-libc = "glibc"
-os = "linux"
-
-    [[FFplay.download]]
-    sha256 = "99ad94b03893494d16122ea1da73a1738cd5508b0a89671b00f4fa3ead45a7ad"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.powerpc64le-linux-gnu.tar.gz"
-[[FFplay]]
-arch = "x86_64"
-git-tree-sha1 = "29b31fce6f4c97e8ca5c4caf12ceb98afd44476f"
+git-tree-sha1 = "dfafbe3bbe215394e241d456dc41fb94f7dd53b7"
 os = "macos"
 
     [[FFplay.download]]
-    sha256 = "3cd2380506aa0a886a9943bb2c16088d43f4db31ecf794c2e6ec5006d066d726"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.x86_64-apple-darwin.tar.gz"
+    sha256 = "1c88c2e75ecf09ae0eed208c7a641dbf55cf9a362dc0b2800a50d2cb3d4ceb6b"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.aarch64-apple-darwin.tar.gz"
 [[FFplay]]
-arch = "x86_64"
-git-tree-sha1 = "a4f498df20586ed6eceb903e5fb9b20898424f5e"
+arch = "aarch64"
+git-tree-sha1 = "27ccb1d954f503bee861df818e4ce9f4be1d288e"
 libc = "glibc"
 os = "linux"
 
     [[FFplay.download]]
-    sha256 = "583a7c4edbc60a20fa213161b350c33c7cef3f8734a709b0be191ae86bca175c"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.x86_64-linux-gnu.tar.gz"
+    sha256 = "8efa9c8c892b4bdfd2045a7e9ea40b226bed9f773767774eeb2a7de9cb0d83c6"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.aarch64-linux-gnu.tar.gz"
 [[FFplay]]
-arch = "x86_64"
-git-tree-sha1 = "5d8a0a77dbfcb9ee4ecc5672aeefe8b2c8e0614f"
+arch = "aarch64"
+git-tree-sha1 = "1196756809d09d6412c992ddcd27f3e815df9ee1"
 libc = "musl"
 os = "linux"
 
     [[FFplay.download]]
-    sha256 = "e95d2fac3339e65351b4949bb30adad83b1f268f55feaea761e08771ef39a641"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.x86_64-linux-musl.tar.gz"
+    sha256 = "d1667a51da0d30d1d29769f03b5f54fa2bb8f317ba1c0a4c534f939e826882d6"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.aarch64-linux-musl.tar.gz"
 [[FFplay]]
-arch = "x86_64"
-git-tree-sha1 = "123ea655d13eaf907962b1890441f6213fd69cbc"
-os = "freebsd"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "46c95dc22a98a98ebdd945f93296260fda5efd25"
+libc = "glibc"
+os = "linux"
 
     [[FFplay.download]]
-    sha256 = "badc9c3247e64ff916ff833879f6234bdfbda186de609e77d5df251e86c285c2"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "e4c5f18e697d415c128ea715776cce1c16aeb1e21b50a67dd28e12af33b49d30"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.armv7l-linux-gnueabihf.tar.gz"
 [[FFplay]]
-arch = "x86_64"
-git-tree-sha1 = "9a875610f8a04b32b9a105f4c4fc0087081c543d"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "88626ec0fa525bfad65632b24c935e23c3dab76c"
+libc = "musl"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "f8aaa5479494513b94c72ca55fddbb4ce5d2068a3f52a65e03818b6159e62e02"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.armv7l-linux-musleabihf.tar.gz"
+[[FFplay]]
+arch = "i686"
+git-tree-sha1 = "b9ba392cf46a5f83e78ec6b1e4d83b0d4d832941"
+libc = "glibc"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "1a446fbc76923676b0be03cf523bc0497fe560b8a3b507fa555b1fea4e5552a5"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.i686-linux-gnu.tar.gz"
+[[FFplay]]
+arch = "i686"
+git-tree-sha1 = "925f4c66c5670207de3b1880e1927e1f4d816d51"
+libc = "musl"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "080aefc84976632289e484f7d14b0b8651ecc3405afb080ee738c4847fca08dd"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.i686-linux-musl.tar.gz"
+[[FFplay]]
+arch = "i686"
+git-tree-sha1 = "f88acd797144ca604c97b2002f974f67b6cff98b"
 os = "windows"
 
     [[FFplay.download]]
-    sha256 = "1e66c18f0c43c2aff8897e0533ba96ef6d59434481d7dd3cbc018a798632d940"
-    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v4.4.4+0/FFplay.v4.4.4.x86_64-w64-mingw32.tar.gz"
+    sha256 = "4dda16973d08d3d31e4e17cb620298eaf46727f25bb70fc8718e9e3e18864b58"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.i686-w64-mingw32.tar.gz"
+[[FFplay]]
+arch = "powerpc64le"
+git-tree-sha1 = "9a51d38bbab4cbf4d9b2c3feb835688c9a512249"
+libc = "glibc"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "ceb989de51eb0893e9a64bda8e83cabed435fddcd3982ff8fe2a9298a5c9509a"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.powerpc64le-linux-gnu.tar.gz"
+[[FFplay]]
+arch = "x86_64"
+git-tree-sha1 = "5e8e3ae0cb4c3ad30509b3aba2bfa6177ecb8290"
+os = "macos"
+
+    [[FFplay.download]]
+    sha256 = "fd979fd9c7a357a03e10b753480e57db1db925d82828626070b8806776f0a9e5"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.x86_64-apple-darwin.tar.gz"
+[[FFplay]]
+arch = "x86_64"
+git-tree-sha1 = "e228e7339c8620facde3f57d2b3a60ea17419f88"
+libc = "glibc"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "efb2eed01f860134872e531dd07bd29b36da0a818dcad84d64adb7578ae51fba"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.x86_64-linux-gnu.tar.gz"
+[[FFplay]]
+arch = "x86_64"
+git-tree-sha1 = "280883f4a595f896402a002df651f425481321d3"
+libc = "musl"
+os = "linux"
+
+    [[FFplay.download]]
+    sha256 = "7c435bcf52ee7d2760669be41697d3a45935b56cb0008e29a694bd16a9e961b8"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.x86_64-linux-musl.tar.gz"
+[[FFplay]]
+arch = "x86_64"
+git-tree-sha1 = "222dc38ff70b2b66c2c952dca5bebe01ae62a23c"
+os = "freebsd"
+
+    [[FFplay.download]]
+    sha256 = "3aa8c0c54b38cb982f96fc1c62a117f8fa450d7c72c3221556aa4b5606aeef5d"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.x86_64-unknown-freebsd.tar.gz"
+[[FFplay]]
+arch = "x86_64"
+git-tree-sha1 = "da07ff1c0ac305fdfc35788a805069899c412b18"
+os = "windows"
+
+    [[FFplay.download]]
+    sha256 = "ad9e5427bd0eb0851652bede7b2b213106fdf7b2872586a72ffa5ad5fe3ccf76"
+    url = "https://github.com/JuliaBinaryWrappers/FFplay_jll.jl/releases/download/FFplay-v6.1.1+0/FFplay.v6.1.1.x86_64-w64-mingw32.tar.gz"
