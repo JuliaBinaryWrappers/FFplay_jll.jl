@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("FFplay")
-JLLWrappers.@generate_main_file("FFplay", UUID("c4dce911-e170-5107-8314-c7bdc6785395"))
+JLLWrappers.@generate_main_file("FFplay", Base.UUID("c4dce911-e170-5107-8314-c7bdc6785395"))
 end  # module FFplay_jll
